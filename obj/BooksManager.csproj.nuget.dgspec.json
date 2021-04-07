@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\学习目录\\BooksManager\\BooksManager.csproj": {}
+    "F:\\学习目录\\BooksManager\\BooksManager\\BooksManager.csproj": {}
   },
   "projects": {
-    "F:\\学习目录\\BooksManager\\BooksManager.csproj": {
+    "F:\\学习目录\\BooksManager\\BooksManager\\BooksManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\学习目录\\BooksManager\\BooksManager.csproj",
+        "projectUniqueName": "F:\\学习目录\\BooksManager\\BooksManager\\BooksManager.csproj",
         "projectName": "BooksManager",
-        "projectPath": "F:\\学习目录\\BooksManager\\BooksManager.csproj",
+        "projectPath": "F:\\学习目录\\BooksManager\\BooksManager\\BooksManager.csproj",
         "packagesPath": "C:\\Users\\ghp\\.nuget\\packages\\",
-        "outputPath": "F:\\学习目录\\BooksManager\\obj\\",
+        "outputPath": "F:\\学习目录\\BooksManager\\BooksManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "H:\\IDE\\VS2019SDK\\NuGetPackages"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

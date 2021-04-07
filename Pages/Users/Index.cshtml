@@ -1,0 +1,30 @@
+﻿@page
+@model BooksManager.Pages.Users.IndexModel
+@{
+}
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>编号</th>
+                <th>用户名</th>
+            </tr>
+        </thead>
+
+        @foreach (var item in Model.list)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.UserName</td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

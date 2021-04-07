@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ghp\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ghp\\.nuget\\packages",
+      "H:\\IDE\\VS2019SDK\\NuGetPackages"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+﻿@page
+@model BooksManager.Pages.Users.CreateModel
+@{
+}
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <form method="post">
+        <input type="text" asp-for="user.UserName" />
+        <input type="password" asp-for="user.Password" />
+        <button type="submit">提交</button>
+    </form>
+    <div>
+        <a   asp-page="Index">Back to List</a>
+    </div>
+
+</body>
+</html>
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
